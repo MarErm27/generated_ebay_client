@@ -28,5 +28,5 @@ libraryDependencies ++= Seq(
 
 addCompilerPlugin(scalafixSemanticdb)
 
-publishTo := Some("My Reposilite" at "http://localhost:8181/releases")
+publishTo := Some("Reposilite" at "http://localhost:8181/releases")
 credentials += Credentials("Reposilite", "ebay.client.scala", "admin", "admin123")
