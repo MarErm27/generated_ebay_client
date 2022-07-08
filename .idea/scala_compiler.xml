@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="guardrail-sample-sbt-akkahttp_7642" />
-    <profile name="sbt 2" modules="guardrail-sample-sbt-akkahttp">
+    <profile name="sbt 1" modules="client,guardrail-sample-sbt-akkahttp_7642" />
+    <profile name="sbt 2" modules="ebay-client,guardrail-sample-sbt-akkahttp">
       <option name="deprecationWarnings" value="true" />
       <parameters>
         <parameter value="-Ypartial-unification" />

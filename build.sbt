@@ -9,7 +9,7 @@ val circeVersion      = "0.14.1"
 val scalatestVersion  = "3.2.9"
 val jaxbApiVersion    = "2.3.1"
 
-scalacOptions ++= Seq("-Ypartial-unification", "-deprecation")
+//scalacOptions ++= Seq("-Ypartial-unification", "-deprecation")
 
 libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.30"
 
@@ -26,7 +26,14 @@ libraryDependencies ++= Seq(
   "org.typelevel"     %% "cats-core"         % catsVersion,
 )
 
-addCompilerPlugin(scalafixSemanticdb)
+// addCompilerPlugin(scalafixSemanticdb)
+
+scalaVersion := "2.13.8"
+organization := "ebay"
+name := "client"
+version := "0.1.0-SNAPSHOT"
+// idePackagePrefix := Some("com.reposilite.scala")
+//shellPrompt := { state => Project.extract(state).currentRef.project + "> " }
 
 publishTo := Some("Reposilite" at "http://localhost:8181/releases")
 credentials += Credentials("Reposilite", "localhost", "admin", "admin123")

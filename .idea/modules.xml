@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guardrail-sample-sbt-akkahttp.iml" filepath="$PROJECT_DIR$/.idea/modules/guardrail-sample-sbt-akkahttp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guardrail-sample-sbt-akkahttp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/guardrail-sample-sbt-akkahttp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
     </modules>
   </component>
 </project>
