@@ -1,5 +1,6 @@
 Compile / guardrailTasks := List(
   ScalaServer(file("petstore.yaml"), pkg="foo"),
+  ScalaClient(file("sell_fulfillment_v1_oas3.json"), pkg="sell.fulfillment")
 )
 
 val akkaVersion       = "2.6.15"
