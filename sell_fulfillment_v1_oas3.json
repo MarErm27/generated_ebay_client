@@ -2111,7 +2111,7 @@
           }
         }
       },
-      "Error": {
+      "SellError": {
         "type": "object",
         "properties": {
           "category": {
@@ -2772,7 +2772,7 @@
             "type": "array",
             "description": "This array is returned if one or more errors or warnings occur with the call request.",
             "items": {
-              "$ref": "#/components/schemas/Error"
+              "$ref": "#/components/schemas/SellError"
             }
           }
         },
@@ -3331,7 +3331,7 @@
             "type": "array",
             "description": "This array is only returned if one or more errors or warnings occur with the call request.",
             "items": {
-              "$ref": "#/components/schemas/Error"
+              "$ref": "#/components/schemas/SellError"
             }
           }
         },
